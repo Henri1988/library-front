@@ -2,14 +2,15 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import BookInfoView from "@/views/BookInfoView";
+import LogInView from "@/views/LogInView";
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'homeRoute',
-    component: HomeView
+    path: '',
+    name: 'loginRoute',
+    component: LogInView
   },
   {
     path: '/book',
